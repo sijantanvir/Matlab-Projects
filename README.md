@@ -1,15 +1,36 @@
-This repository contains the projects developed by me for CE 206 Engineering Computations Sessional. 
+# Mohr's Circle & 2D Stress Calculator App ⚙️📐
 
-## 1. Mohr's Circle and 2D Stress Calculator App using MATLAB
+[![Built with MATLAB](https://img.shields.io/badge/Built_with-MATLAB-blue.svg)](https://www.mathworks.com/products/matlab.html)
 
-![image.png](https://i.postimg.cc/8zCtgQqX/image.png)
+A MATLAB-based application that takes 2D stress block inputs to dynamically plot Mohr's Circle. It automatically calculates and marks maximum and minimum principal stresses, while showing the orientation of their respective planes.
 
-This app takes stress block stress inputs and plots mohr circle and marks max/min stress showing the orientation of respective planes. 
-This app can also export the plot and show animation.
+![App Interface](https://i.postimg.cc/8zCtgQqX/image.png)
 
-![image.png](https://i.postimg.cc/fywY7Ysq/image.png)
+## ✨ Key Features
 
-- Animated Plot
-- [Help file](https://github.com/CapitalString/Matlab-Projects/blob/master/Mohr%20Circle/App/Help_File.pdf) for ease of use.
-- Export plot as .png
-![image.png](https://i.postimg.cc/43Pf7c8x/image.png)
+* **Interactive Plotting:** Input normal ($\sigma_x$, $\sigma_y$) and shear ($\tau_{xy}$) stresses to instantly generate Mohr's Circle.
+* **Principal Stresses:** Automatically identifies and marks Max/Min stresses and displays the orientation angles of principal planes.
+* **Animated Visualization:** Watch the circle generate in real-time with the built-in animated plot feature.
+* **Export Capability:** Easily export and save your generated plots as high-quality `.png` files.
+
+## 🚀 Demo & Visuals
+
+### Animated Plotting
+Watch the stress state visualize dynamically.
+
+![Animated Plot](https://i.postimg.cc/fywY7Ysq/image.png) 
+*(Note: If you have a .gif of the animation, you can replace this image link with the .gif link for a better effect!)*
+
+### Exported Plot Example
+Clean, easily readable plots exported directly from the app.
+
+![Exported Plot](https://i.postimg.cc/43Pf7c8x/image.png)
+
+## 📖 Documentation
+
+For detailed instructions on navigating the interface and understanding the outputs, please refer to the included documentation:
+👉 **[User Help File (PDF)](https://github.com/CapitalString/Matlab-Projects/blob/master/Mohr%20Circle/App/Help_File.pdf)**
+
+## 🎓 About This Project
+
+This application was originally developed as a project for **CE 206: Engineering Computations Sessional**. It is designed to help civil and mechanical engineering students visualize stress transformations and better understand the mechanics of materials.
