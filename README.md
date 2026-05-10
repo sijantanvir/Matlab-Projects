@@ -19,7 +19,6 @@ A MATLAB-based application that takes 2D stress block inputs to dynamically plot
 Watch the stress state visualize dynamically.
 
 ![Animated Plot](https://i.postimg.cc/fywY7Ysq/image.png) 
-*(Note: If you have a .gif of the animation, you can replace this image link with the .gif link for a better effect!)*
 
 ### Exported Plot Example
 Clean, easily readable plots exported directly from the app.
